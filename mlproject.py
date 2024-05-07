@@ -35,7 +35,7 @@ rf_specificity = rf_conf_matrix[1, 1] / (rf_conf_matrix[1, 0] + rf_conf_matrix[1
 root = tk.Tk()
 root.geometry('400x400')
 root.title("Introduction to Machine Learning Project")
-root.configure(background="#e92929")
+root.configure(background="#ad0505")
 
 # Display results in tkinter window
 results_label = tk.Label(root,text ="Results",font ="Verdana 16 bold")
